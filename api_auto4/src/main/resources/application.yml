@@ -9,8 +9,8 @@ spring:
   application:
     name: userManager
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/course?serverTimezone=GMT&useUnicode=true&characterEncoding=utf-8&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.14.127:3306/course?serverTimezone=GMT&useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
     password: 123456
 
